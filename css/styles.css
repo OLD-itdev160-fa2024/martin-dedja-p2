@@ -1,0 +1,273 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.welcome-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-content {
+    flex-basis: 70%;
+}
+
+.welcome-content h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.welcome-content p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.welcome-content h2 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.welcome-image {
+    flex-basis: 30%;
+    text-align: center;
+}
+
+.welcome-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .welcome-section {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+    }
+
+    .welcome-content, .welcome-image {
+        flex-basis: 100%;
+        padding: 20px;
+    }
+
+    .welcome-content h1 {
+        font-size: 30px;
+    }
+
+    .welcome-content p {
+        font-size: 16px;
+    }
+
+    .welcome-content h2 {
+        font-size: 22px;
+    }
+}
+
+
+h1 {
+    color: #333;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.column {
+    flex: 1;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.column h2 {
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    transition: background-color 0.3s ease;
+}
+
+li.completed {
+    background-color: #e0e0e0;
+    text-decoration: line-through;
+}
+
+button {
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+button.complete {
+    background-color: #28a745;
+    color: white;
+}
+
+button.archive {
+    background-color: #6c757d;
+    color: white;
+}
+
+button.delete {
+    background-color: #dc3545;
+    color: white;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#addTaskButton {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#addTaskButton:hover {
+    background-color: #0056b3;
+}
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'YourChosenFont', sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    margin: 30px 25%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.image-container img {
+    width: 48%;
+    margin-bottom: 10px;
+}
+
+form label, form input, form textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+
+.contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contact-details {
+    flex-basis: 30%;
+}
+
+.contact-form {
+    flex-basis: 70%;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Company Name</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+                <li><a href="#todo">TODO TOOL</a></li>
+                <li><a href="#contact">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="welcome-section">
+            <div class="welcome-content">
+                <h1>Welcome to Eagle Software Solutions</h1>
+                <p>Welcome to the forefront of innovation and technology. At Your Company Name, we are driven by a passion for excellence and a commitment to delivering cutting-edge solutions that transform businesses. With a rich history of success and a team of dedicated experts, we have established ourselves as a leading IT company in the industry.</p>
+                <p>Our journey began years ago with a vision to revolutionize the IT landscape, and today, we stand as a testament to our unwavering dedication. Our mission is to empower organizations with technology-driven solutions that drive growth, enhance efficiency, and enable success. Whether you are a small startup aiming to disrupt the market or a global enterprise seeking to stay at the forefront of innovation, we tailor our services to meet your unique needs and challenges.</p>
+                <p>At the heart of our success is our team—a diverse group of passionate individuals who thrive on challenges and thrive on solving complex problems. We believe in the power of technology to shape a better future, and we are here to guide you every step of the way. From cloud computing and cybersecurity to data analytics and software development, we offer a comprehensive range of services that leverage the latest advancements in technology.</p>
+            </div>
+            <div class="welcome-image">
+                <img src="https://media.licdn.com/dms/image/D560BAQGgBX_iHvtmbQ/company-logo_200_200/0/1681345403894/eagle_software_solutions_logo?e=2147483647&v=beta&t=HZLE23AU3kDhCurMrKk4ujoM9PYIuVIgR2mN9xJ7CWg" alt="Company Office">
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="image-container">
+            <img src="https://media.screeningeagle.com/asset/media/SocialThumbnails/Thumbnail_MAIN_website1@2x.jpg" alt="IT Gallery Image 1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe8bvI2b-I8ctmIBTtbpDcZ4Y2WZgWk-dCI9CUTB3Jm7UBlkyMvi03dc5diUklpgBr9IM&usqp=CAU" alt="IT Gallery Image 2">
+            <img src="https://eagleconsultingpartners.com/wp-content/uploads/2021/08/INFOGRAPHIC_-Why-You-Need-an-Office-365-Data-Backup-Strategy.jpeg" alt="IT Gallery Image 3">
+            <img src="https://hillcountryaerial.com/images/Partners.png" alt="IT Gallery Image 4">
+        </div>
+    </section>
+
+    <section id="todo">
+        <h2>To-Do List</h2>
+        <input type="text" id="taskInput" placeholder="Add a new task">
+        <button id="addTaskButton">Add</button>
+        <div class="columns">
+            <div class="column" id="todoColumn">
+                <h2>TO-DO</h2>
+                <ul id="todoList"></ul>
+            </div>
+            <div class="column" id="completedColumn">
+                <h2>COMPLETED</h2>
+                <ul id="completedList"></ul>
+            </div>
+            <div class="column" id="archiveColumn">
+                <h2>ARCHIVE</h2>
+                <ul id="archiveList"></ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-section">
+            <div class="contact-details">
+                <div class="contact-info">
+                    <p>Email: info@eaglesoftwaresolutions.com</p>
+                    <p>Phone: (414) 414-3245</p>
+                    <p>Fax: (324) 456-6352</p>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="/" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
